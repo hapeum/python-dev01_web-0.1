@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "blog.apps.BlogConfig",
+    "widget_tweaks",
 ]
 
 MIDDLEWARE = [
@@ -134,3 +136,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/media'
